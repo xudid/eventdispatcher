@@ -2,6 +2,9 @@
     "name": "xudid/eventdispatcher",
     "description": "An Event dispatcher package",
     "type": "library",
+    "scripts": {
+        "test":"php vendor/bin/phpunit"
+    },
     "require-dev": {
         "phpunit/phpunit": "^10.1"
     },
