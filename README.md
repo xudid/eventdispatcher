@@ -1,2 +1,2 @@
-# enventdispatcher
+# eventdispatcher
 An Event dispatcher package
