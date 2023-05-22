@@ -1,0 +1,12 @@
+<phpunit
+bootstrap="vendor/autoload.php"
+testdox="true"
+colors="true"
+stopOnFailure="false"
+>
+<testsuites>
+<testsuite name="Event Dispatcher">
+<directory>test</directory>
+</testsuite>
+</testsuites>
+</phpunit>
