@@ -21,5 +21,7 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "psr/event-dispatcher": "^1.0"
+    }
 }
