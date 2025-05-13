@@ -10,9 +10,9 @@ use Psr\EventDispatcher\StoppableEventInterface;
  */
 class Event implements StoppableEventInterface
 {
-    private string $name;
-    private $data;
-    private bool $stopPropagation  = false;
+    protected string $name;
+    protected $data;
+    protected bool $stopPropagation  = false;
 
     /**
      * Event constructor.
