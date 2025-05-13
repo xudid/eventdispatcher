@@ -35,7 +35,7 @@ class Dispatcher implements EventDispatcherInterface
     {
         foreach ($this->listenerProvider->getListenersForEvent($event) as $listener) {
             $listener->handle([$event]);
-            if ($event->isPropagationStopped) {
+            if ($event->isPropagationStopped()) {
                 return $event;
             }
         }
